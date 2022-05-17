@@ -32,9 +32,9 @@ body {
     cursor: pointer;
 }
 
-.double {
+/* .double {
     flex-basis: 50%;
-}
+} */
 
 .display {
     color: white;
@@ -46,10 +46,15 @@ body {
 }
 
 .operator,
-.negative,
-.equals {
+.negative {
    background: orange;
 }
+
+.equals {
+    background: blue;
+    color: white;
+ }
+
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
